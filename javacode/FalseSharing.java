@@ -1,9 +1,9 @@
-public class FalseSharing2 {
+public class FalseSharing {
     private static class Padding {
         public volatile long p1, p2, p3, p4, p5, p6, p7;
     }
 
-    private static class T /*extends Padding*/ {
+    private static class T extends Padding {
         public volatile long x = 0L;
     }
 

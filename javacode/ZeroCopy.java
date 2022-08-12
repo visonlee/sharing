@@ -8,9 +8,9 @@ public class ZeroCopy {
 
     public static void main(String[] args) throws Exception {
    
-        String src = "C:\\Users\\Administrator\\Desktop\\sharing\\1.mp4";
-        String dst1 = "C:\\Users\\Administrator\\Desktop\\sharing\\2.mp4";
-        String dst2 = "C:\\Users\\Administrator\\Desktop\\sharing\\3.mp4";
+        String src = "C:\\Users\\Administrator\\Desktop\\1.mp4";
+        String dst1 = "C:\\Users\\Administrator\\Desktop\\2.mp4";
+        String dst2 = "C:\\Users\\Administrator\\Desktop\\3.mp4";
 
         long t = System.currentTimeMillis();
         copy(src, dst1);
